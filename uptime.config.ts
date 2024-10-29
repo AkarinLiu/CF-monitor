@@ -37,7 +37,7 @@ const workerConfig = {
     {
       id: 'forum',
       name: '论坛',
-      method: 'POST',
+      method: 'GET',
       target: 'https://forum.akarinliu.com',
       headers: {
         'User-Agent': 'Uptimeflare',
