@@ -18,7 +18,7 @@ const workerConfig = {
   monitors: [
     {
       id: 'Blog',
-      name: '博客',
+      name: '博客 · www.akarinliu.com',
       method: 'GET',
       target: 'https://www.akarinliu.com',
       headers: {
@@ -27,7 +27,7 @@ const workerConfig = {
     },
     {
       id: 'rss-reader',
-      name: 'RSS 阅读器',
+      name: 'RSS 阅读器 · rss.akarinliu.com',
       method: 'GET',
       target: 'https://rss.akarinliu.com',
       headers: {
@@ -36,7 +36,7 @@ const workerConfig = {
     },
     {
       id: 'forum',
-      name: '论坛',
+      name: '论坛 · forum.akarinliu.com',
       method: 'GET',
       target: 'https://forum.akarinliu.com',
       headers: {
