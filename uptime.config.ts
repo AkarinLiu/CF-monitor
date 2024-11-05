@@ -19,7 +19,7 @@ const workerConfig = {
     {
       id: 'Blog',
       name: '博客',
-      method: 'POST',
+      method: 'GET',
       target: 'https://www.akarinliu.com',
       headers: {
         'User-Agent': 'Uptimeflare',
@@ -28,7 +28,7 @@ const workerConfig = {
     {
       id: 'rss-reader',
       name: 'RSS 阅读器',
-      method: 'POST',
+      method: 'GET',
       target: 'https://rss.akarinliu.com',
       headers: {
         'User-Agent': 'Uptimeflare',
