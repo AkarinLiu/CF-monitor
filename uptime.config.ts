@@ -33,6 +33,15 @@ const workerConfig = {
       headers: {
         'User-Agent': 'Uptimeflare',
       },
+    },
+    {
+      id: 'rss-reader',
+      name: '论坛 · forum.akarinliu.com',
+      method: 'GET',
+      target: 'https://forum.akarinliu.com',
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
     }
   ],
   notification: {
